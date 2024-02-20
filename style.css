@@ -177,7 +177,7 @@ input{
     }
     .card-section{
         flex-direction: column;
-        padding-left: 20px;
+        padding-left: 40px;
     }
     .pricing-section{
         width: 380px;
