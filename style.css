@@ -50,6 +50,12 @@ li a{
     color: white;
     font-weight: bold;
 }
+.feature-tittle{
+    text-align: center;
+    color: white; 
+    border-style: solid; 
+    border-color: #8e8cdb;
+}
 .images{
     display: flex;
     justify-content: center;
@@ -150,7 +156,9 @@ input{
     .img-1,.img-2{
         width: 350px;
     }
-
+    .feature-tittle{
+        border: none;
+    }
     .images{
         flex-direction: column;
         gap: 50px;
@@ -165,9 +173,11 @@ input{
     }
     .Testimonial-tittle{
         margin-top: 50px;
+        padding-left: 20px;
     }
     .card-section{
         flex-direction: column;
+        padding-left: 20px;
     }
     .pricing-section{
         width: 380px;
@@ -176,5 +186,7 @@ input{
         flex-direction: column;
         gap: 20px;
     }
-
+    .Newsletter-section{
+        padding-left: 20px;
+    }
 }
